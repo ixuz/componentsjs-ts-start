@@ -1,6 +1,9 @@
 #!/usr/bin/env node
-require("../dist/index");
 const { AppRunner } = require("..");
-new AppRunner().run().then((appInstance) => {
-  appInstance.start();
-});
+
+const main = async () => {
+  const appInstance = await new AppRunner().run();
+  await appInstance.start();
+};
+
+main();

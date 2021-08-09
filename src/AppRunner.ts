@@ -9,7 +9,7 @@ export class AppRunner {
 
     await componentsManager.configRegistry.register("config/config.jsonld");
 
-    const app = "urn:componentsjs-ts-start:default:App";
+    const app = "urn:componentsjs-ts-start:App";
     const appInstance = await componentsManager.instantiate(app);
 
     return appInstance;

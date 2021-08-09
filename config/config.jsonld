@@ -3,6 +3,7 @@
     "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^4.0.0/components/context.jsonld",
     "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs-ts-start/^1.0.0/components/context.jsonld"
   ],
-  "@id": "urn:componentsjs-ts-start:default:App",
-  "@type": "App"
+  "@id": "urn:componentsjs-ts-start:App",
+  "@type": "App",
+  "name": "My first componentsjs application"
 }
