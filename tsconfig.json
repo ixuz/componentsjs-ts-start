@@ -8,7 +8,8 @@
     "preserveConstEnums": true,
     "sourceMap": true,
     "stripInternal": true,
-    "typeRoots": ["types", "node_modules/@types"]
+    "typeRoots": ["types", "node_modules/@types"],
+    "noImplicitAny": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]

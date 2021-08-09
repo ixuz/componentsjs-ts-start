@@ -1,5 +1,5 @@
 export class App {
-  public readonly name;
+  public readonly name: string;
 
   constructor(name: string) {
     this.name = name;
