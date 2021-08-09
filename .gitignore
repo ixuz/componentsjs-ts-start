@@ -1,0 +1,4 @@
+node_modules
+dist
+componentsjs-error-state.json
+tsconfig.tsbuildinfo
