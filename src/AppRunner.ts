@@ -7,7 +7,7 @@ export class AppRunner {
     console.log("AppRunner::run()");
 
     const componentsManager = await ComponentsManager.build({
-      mainModulePath: __dirname, // Path to your npm package's root
+      mainModulePath: __dirname + "/..", // Path to your npm package's root
     });
 
     await componentsManager.configRegistry.register("config/config.jsonld");

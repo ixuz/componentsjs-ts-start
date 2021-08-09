@@ -2,4 +2,6 @@
 console.log("Server.js");
 require("../dist/index");
 const { AppRunner } = require("..");
-new AppRunner().run();
+new AppRunner().run().then((appInstance) => {
+  appInstance.start();
+});
