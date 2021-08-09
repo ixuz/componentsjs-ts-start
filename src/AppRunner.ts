@@ -1,4 +1,5 @@
 import { ComponentsManager } from "componentsjs";
+import * as Path from "path";
 
 console.log("AppRunner.ts");
 
@@ -7,7 +8,7 @@ export class AppRunner {
     console.log("AppRunner::run()");
 
     const componentsManager = await ComponentsManager.build({
-      mainModulePath: __dirname + "/..", // Path to your npm package's root
+      mainModulePath: Path.join(__dirname, "/.."), // Path to your npm package's root
     });
 
     await componentsManager.configRegistry.register("config/config.jsonld");
