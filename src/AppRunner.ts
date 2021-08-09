@@ -8,11 +8,9 @@ export class AppRunner {
 
     const componentsManager = await ComponentsManager.build({
       mainModulePath: __dirname, // Path to your npm package's root
-      moduleLoader: (registry) =>
-        registry.registerModule("config/config.jsonld"),
     });
 
-    //await componentsManager.configRegistry.register("config/config.jsonld");
+    await componentsManager.configRegistry.register("config/config.jsonld");
 
     const app = "urn:componentsjs-ts-start:default:App";
     const appInstance = await componentsManager.instantiate(app);
