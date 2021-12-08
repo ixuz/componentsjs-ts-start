@@ -5,5 +5,9 @@
   ],
   "@id": "urn:componentsjs-ts-start:App",
   "@type": "App",
+  "myComponent": {
+    "@id": "urn:componentsjs-ts-start:MyComponent",
+    "@type": "MyComponent"
+  },
   "name": "My first componentsjs application"
 }
