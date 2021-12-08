@@ -9,5 +9,13 @@
     "@id": "urn:componentsjs-ts-start:MyComponent",
     "@type": "MyComponent"
   },
+  "animals": [
+    {
+      "@type": "Dog"
+    },
+    {
+      "@type": "Cow"
+    }
+  ],
   "name": "My first componentsjs application"
 }
